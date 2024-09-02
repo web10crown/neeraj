@@ -189,7 +189,7 @@ const About = () => {
         <ul className="clients-list has-scrollbar">
           {clients.map((client, index) => (
             <li key={index} className="clients-item">
-              <a href="#">
+              <a href="/">
                 <img src={client} alt="client logo" />
               </a>
             </li>
